@@ -10,8 +10,8 @@ nav {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: black;
-  color: pink;
+  color: rgb(36, 75, 166);
+  background-color: whitesmoke;
 }
 
 .navItems {
@@ -27,7 +27,7 @@ nav {
 }
 
 .head {
-  color: pink;
+  color: rgb(36, 75, 166);
   font-size: 28px;
   text-decoration: none;
   cursor: pointer;
@@ -49,8 +49,8 @@ nav {
   top: 130%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: pink;
-  color: #333;
+  background-color: rgb(36, 75, 166);
+  color: white;
   padding: 5px;
   width: 200px;
   height: 150px;
@@ -72,7 +72,7 @@ nav {
 
 .tag {
   font-weight: bold;
-  color: rgb(114, 50, 61);
+  color: white;
   font-size: 13px;
 }
 
@@ -103,12 +103,12 @@ nav {
 }
 
 .icon4:hover {
-  text-shadow: 2px 2px 2px pink;
+  text-shadow: 5px 5px 2px rgb(36, 75, 166);
   transform: scale(1.2);
 }
 
 .soci {
-  color: palevioletred;
+  color: rgb(36, 75, 166);
 }
 
 /* Landing navbar end */
@@ -118,14 +118,12 @@ nav {
 .join {
   width: 100%;
   height: 65vh;
-  border: 2px solid;
-  background-color: black;
 }
 
 .head1 {
   margin: 10px auto 10px 400px;
   font-size: 40px;
-  color: pink;
+  color: rgb(36, 75, 166);
   font-weight: bold;
 }
 
@@ -142,14 +140,14 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  color: white;
 }
 
 .google {
   width: 325px;
   height: 40px;
   font-size: 20px;
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
+  color: white;
   border-radius: 10px;
   border: 2px solid white;
   cursor: pointer;
@@ -170,7 +168,8 @@ nav {
   width: 325px;
   height: 40px;
   font-size: 20px;
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
+  color: white;
   border-radius: 10px;
   border: 2px solid white;
   cursor: pointer;
@@ -211,7 +210,8 @@ input::placeholder {
 /* Popup box */
 .contPop {
   position: relative;
-  background: pink;
+  background: rgb(36, 75, 166);
+  color: white;
   padding: 15px;
   border-radius: 10px;
   width: 500px;
@@ -251,7 +251,7 @@ input::placeholder {
 }
 
 .contBtn:hover {
-  background-color: palevioletred;
+  background-color: dodgerblue
 }
 
 .cross {
@@ -274,7 +274,7 @@ input::placeholder {
   text-align: center;
   width: 100%;
   height: 55vh;
-  color: rgb(81, 37, 43);
+  border-top: 1px solid rgb(36, 75, 166);
 }
 
 .mainhead2 {
@@ -307,7 +307,8 @@ input::placeholder {
 .search {
   border: 1px solid grey;
   width: 100%;
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
+  color: white;
 }
 
 .head5 {
@@ -331,6 +332,7 @@ input::placeholder {
   font-size: 40px;
   background: none;
   cursor: pointer;
+  color: white;
 }
 
 .close {
@@ -345,7 +347,7 @@ input::placeholder {
 .prefooter {
   width: 100%;
   padding: 5px;
-  border-top: 1px solid pink;
+  border-top: 1px solid;
 }
 
 .android {
@@ -433,8 +435,7 @@ input::placeholder {
   text-align: center;
   font-size: 16px;
   padding-top: 10px;
-  color: white;
-  background-color: black;
+  background-color: whitesmoke
 }
 
 /* Application Page CSS */
@@ -443,10 +444,10 @@ input::placeholder {
   width: 100%;
   display: flex;
   gap: 100px;
-  border-bottom: 1px solid pink;
-  border-top: 1px solid pink;
-  background-color: black;
-  color: pink;
+  border-bottom: 1px solid rgb(36, 75, 166);
+  border-top: 1px solid rgb(36, 75, 166);
+  background-color: white;
+  color: rgb(36, 75, 166);
 }
 
 .workplaceimg{
@@ -485,14 +486,14 @@ input::placeholder {
   height: 40px;
   margin: 5px;
   border-radius: 10px;
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
+  color: white;
   border: none;
   font-weight: bold;
 }
 
 .discover:hover{
-  background-color: palevioletred;
-  color: white;
+  background-color: dodgerblue;
   
 }
 
@@ -529,7 +530,7 @@ input::placeholder {
 }
 
 .searchBtn:hover{
-  background-color: palevioletred;
+  background-color: rgb(36, 75, 166);
 }
 
 .searchBtn::placeholder{
@@ -578,7 +579,7 @@ input::placeholder {
   height: 30px;
 }
 .clear:hover{
-  background-color: palevioletred;
+  background-color: rgb(36, 75, 166);
 }
 
 .input6{
@@ -653,7 +654,6 @@ input::placeholder {
 /* Tracking page */
 
 .interntracker{
-  background-color: pink;
   padding: 30px;
 }
 
@@ -662,8 +662,8 @@ input::placeholder {
   height: 20vh;
   padding: 20px;
   border: 2px solid;
-  background-color: black;
-  color: white;
+  background-color: whitesmoke;
+  color: rgb(36, 75, 166);
   margin: 25px;
   border-radius: 30px;
 }
@@ -680,11 +680,11 @@ input::placeholder {
   width: 90px;
   height: 30px;
   border-radius: 5px;
-  background-color: pink
+  background-color: rgb(36, 75, 166);
+  color: white;
 }
 .view:hover{
-  background-color: palevioletred;
-  color: white;
+  background-color: dodgerblue;
 }
 
 /* View Details page */
@@ -695,7 +695,7 @@ input::placeholder {
   gap: 1000px;
   align-items: center;
   padding: 10px;
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 .return{
@@ -704,8 +704,8 @@ input::placeholder {
   width: 200px;
   height: 30px;
   font-size: 18px;
-  color: pink;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .vdContent{
@@ -714,14 +714,12 @@ input::placeholder {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: pink;
   padding-bottom: 30px;
 }
 
 .interninfo{
   width: 800px;
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
   padding: 30px;
   border-radius: 15px;
 }
@@ -735,8 +733,8 @@ input::placeholder {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: black;
-  color: pink;
+  background-color: whitesmoke;
+  color: rgb(36, 75, 166);
 }
 
 .mainNavitems {
@@ -748,7 +746,7 @@ input::placeholder {
 
 .itemMain {
   background: none;
-  color: pink;
+  color: rgb(36, 75, 166);
   font-size: 17px;
   text-decoration: none;
 }
@@ -778,19 +776,21 @@ body.dark-mode {
 }
 
 .lghtDrk-btn {
-  width: 50px;
-  height: 50px;
-  border: none;
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid black; */
   border-radius: 50%;
   cursor: pointer;
   padding: 10px;
   display: flex;
   justify-content: center;
-  background-color: inherit;
+  align-items: center;
+  background-color: rgb(48, 44, 44)
 }
 
 #modeIcon {
-  font-size: 30px;
+  font-size: 20px;
+  color: yellow;
   transition: transform 2s ease;
 }
 
@@ -856,11 +856,11 @@ body.dark-mode {
 }
 
 #jobsearch::placeholder{
-  background-color: rgb(242, 218, 221);
+  background-color: whitesmoke
 }
 
 #city::placeholder{
-  background-color: rgb(242, 218, 221);
+  background-color: whitesmoke
 }
 
 .input2{
@@ -871,7 +871,7 @@ body.dark-mode {
   padding: 10px;
   margin-left: 60px;
   margin-top: 50px;
-  background-color: rgb(242, 218, 221);
+  background-color: whitesmoke;
   display: flex;
   align-items: center;
 }
@@ -880,9 +880,8 @@ body.dark-mode {
   display: flex;
   width: 100%;
   height: 450px;
-  background-color: black;
-  color: pink;
-  border-top: 1px solid pink;
+  color: rgb(36, 75, 166);
+  border-top: 1px solid rgb(36, 75, 166);
 }
 
 .searchimg{
@@ -989,7 +988,6 @@ body.dark-mode {
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-color: pink;
 }
 
 .lbl4{
@@ -1010,7 +1008,8 @@ body.dark-mode {
 }
 
 .icon14{
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
+  color: white;
   width: 160px;
   height: 30px;
   border-radius: 10px;
@@ -1021,8 +1020,7 @@ body.dark-mode {
   cursor: pointer;
 }
 .icon14:hover{
-     background-color: palevioletred;
-  color: white;
+     background-color: dodgerblue
 }
 
 /* Account Settings */
@@ -1036,7 +1034,8 @@ body.dark-mode {
 }
 
 .icon15{
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
+  color: white;
   width: 160px;
   height: 30px;
   border-radius: 10px;
@@ -1047,8 +1046,7 @@ body.dark-mode {
   cursor: pointer;
 }
 .icon15:hover{
-     background-color: palevioletred;
-  color: white;
+     background-color: dodgerblue;
 }
 
 /* Application Form */
@@ -1099,7 +1097,8 @@ body.dark-mode {
 
 /* Popup box */
 .notifiPop {
-  background: pink;
+  background: rgb(36, 75, 166);
+  color: white;
   padding: 15px;
   border-radius: 10px;
   width: 300px;
@@ -1123,8 +1122,9 @@ body.dark-mode {
   color: white;
   width: 120px;
   height: 30px;
+  border-radius: 10px;
   font-size: 15px;
 }
 .hide:hover{
-  background-color: palevioletred;
+  background-color: dodgerblue
 }

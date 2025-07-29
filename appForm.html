@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="InternVault.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Intern Application Form | InternVault</title>
+</head>
+
+<body>
+    <div class="vdNav">
+        <button class="return">
+            <i class="fa-solid fa-arrow-left"></i>RETURN
+        </button>
+        <div class="head">InternVault</div>
+    </div>
+
+    <div class="appform"
+        style="background-color: pink; color: white; display: flex; justify-content: center; align-items: center;">
+
+        <form method="get" style="background-color: black; padding: 20px; border-radius: 30px;">
+            <fieldset style="margin-bottom: 30px;">
+                <legend style="font-size: 27px; font-weight: bold;">Contact Information</legend>
+                <label for="phno" class="lbl5">Contact Number</label> <br>
+                <input type="text" placeholder="Enter Contact Number" class="input11"> <br>
+                <label for="mail" class="lbl5">Email Id</label> <br>
+                <input type="email" class="input11" placeholder="Enter your Email Address"> <br>
+                <label for="resadd" class="lbl5">Residence Address</label> <br>
+                <input type="text" class="input11" placeholder="Enter Address"></input>
+
+            </fieldset>
+
+            <fieldset style="margin-bottom: 30px;">
+                <legend style="font-size: 27px; font-weight: bold;">Resume and Other Documents</legend>
+                <label for="cv" class="lbl5">Upload Your CV</label> <br>
+                <input type="file">
+            </fieldset>
+
+            <fieldset>
+                <legend style="font-size: 27px; font-weight: bold;">Other Details</legend>
+                <label for="wrkexp" class="lbl5">Work Experience(if any)</label> <br>
+                <input type="text" class="input11" placeholder="Enter Work Experience (in years)"> <br>
+                <label for="reviews">Other:</label> <br>
+                <textarea name="reviews" id="reviews" placeholder="Tell us more about your previous Job."
+                    style="height: 80px; width: 500px;"></textarea>
+            </fieldset>
+            <button class="icon13"><i class="fa-solid fa-bolt"></i>Easy Apply</button>
+        </form>
+    </div>
+    <script>
+
+        let icon12 = document.querySelector(".return");
+        icon12.addEventListener("click", function () {
+            window.history.back();
+        });
+
+        let allinput = document.querySelectorAll(".input10");
+
+        let icon13 = document.querySelector(".icon13");
+        icon13.addEventListener("click", function () {
+            allinput.forEach(function (input) {
+                input.value = "";
+            });
+            alert("You've Applied Successfully!");
+            window.history.back();
+        });
+
+    </script>
+</body>
+
+</html>

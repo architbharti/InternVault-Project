@@ -1,0 +1,1130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Glassdoor Sans", sans-serif;
+}
+/* Landing Navbar start */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: pink;
+}
+
+.navItems {
+  display: flex;
+  gap: 70px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+}
+
+.head {
+  color: pink;
+  font-size: 28px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navItem {
+  position: relative;
+  cursor: pointer;
+}
+
+.navItem:hover .pop {
+  display: block;
+}
+
+.pop {
+  display: none;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: pink;
+  color: #333;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  z-index: 100;
+  white-space: normal;
+}
+
+.pop::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.tag {
+  font-weight: bold;
+  color: rgb(114, 50, 61);
+  font-size: 13px;
+}
+
+.content {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.next {
+  margin: 10px auto auto 10px;
+  width: 150px;
+  height: 28px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+.next:hover {
+  background-color: palevioletred;
+  border: 2px solid white;
+}
+
+.icon4 {
+  font-size: 20px;
+}
+
+.icon4:hover {
+  text-shadow: 2px 2px 2px pink;
+  transform: scale(1.2);
+}
+
+.soci {
+  color: palevioletred;
+}
+
+/* Landing navbar end */
+
+/* Joining the website start */
+
+.join {
+  width: 100%;
+  height: 65vh;
+  border: 2px solid;
+  background-color: black;
+}
+
+.head1 {
+  margin: 10px auto 10px 400px;
+  font-size: 40px;
+  color: pink;
+  font-weight: bold;
+}
+
+.back {
+  width: 450px;
+  height: 430px;
+}
+
+.joinopt {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.google {
+  width: 325px;
+  height: 40px;
+  font-size: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.apple {
+  width: 325px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.mail {
+  width: 325px;
+  height: 40px;
+  font-size: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+#mail {
+  width: 320px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.joinContent {
+  display: flex;
+  gap: 180px;
+}
+
+input::placeholder {
+  font-size: 17px;
+  text-align: center;
+}
+
+/* Continue Popup box */
+
+/* Overlay background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Popup box */
+.contPop {
+  position: relative;
+  background: pink;
+  padding: 15px;
+  border-radius: 10px;
+  width: 500px;
+  height: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.head4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.subhead1 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.subhead2 {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.subhead3 {
+  font-size: 13px;
+}
+
+.contBtn {
+  margin: 30px auto auto 180px;
+  width: 130px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+.contBtn:hover {
+  background-color: palevioletred;
+}
+
+.cross {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.cross:hover {
+  color: red;
+}
+
+/* joining the website end */
+
+/* more info of landing page */
+
+.moreinfo {
+  text-align: center;
+  width: 100%;
+  height: 55vh;
+  color: rgb(81, 37, 43);
+}
+
+.mainhead2 {
+  font-size: 35px;
+}
+
+.parahead2 {
+  font-size: 15px;
+  margin-bottom: 70px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.infoitem {
+  font-size: 20px;
+  transition: transform 0.75s linear;
+}
+
+.infoitem:hover {
+  transform: scale(1.3);
+}
+
+/* Search for jobs */
+
+.search {
+  border: 1px solid grey;
+  width: 100%;
+  background-color: pink;
+}
+
+.head5 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.subhead4 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.opens {
+  text-align: center;
+}
+
+.open {
+  border: none;
+  font-size: 40px;
+  background: none;
+  cursor: pointer;
+}
+
+.close {
+  border: none;
+  background: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* Reach */
+
+.prefooter {
+  width: 100%;
+  padding: 5px;
+  border-top: 1px solid pink;
+}
+
+.android {
+  font-size: 35px;
+}
+.android:hover {
+  color: green;
+}
+.apple1 {
+  font-size: 35px;
+}
+.apple1:hover {
+  color: gray;
+}
+
+.facebook {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook:hover {
+  background-color: blue;
+}
+.instagram {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram:hover {
+  background-color: deeppink;
+}
+.reddit {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reddit:hover {
+  background-color: maroon;
+}
+.twitter {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitter:hover {
+  background-color: grey;
+}
+.youtube {
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.youtube:hover {
+  background-color: red;
+}
+
+/* footer of landing page */
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+  color: white;
+  background-color: black;
+}
+
+/* Application Page CSS */
+
+.workplace{
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  border-bottom: 1px solid pink;
+  border-top: 1px solid pink;
+  background-color: black;
+  color: pink;
+}
+
+.workplaceimg{
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.workplaceCnt{
+  width: 700px;
+  height: 300px;
+}
+
+.centerworkplace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head9{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subhead6{
+  font-weight: lighter;
+}
+
+.discovers{
+  width: 400px;
+  height: 120px;
+}
+
+.discover{
+  width: 170px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: pink;
+  border: none;
+  font-weight: bold;
+}
+
+.discover:hover{
+  background-color: palevioletred;
+  color: white;
+  
+}
+
+/* Company Search */
+
+.companysearch{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 70px auto 10px auto;
+  gap: 10px;
+}
+
+.head10{
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.input5{
+  width: 250px;
+  height: 37px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: whitesmoke;
+}
+
+.searchBtn{
+  width: 100px;
+  height: 38px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.searchBtn:hover{
+  background-color: palevioletred;
+}
+
+.searchBtn::placeholder{
+  text-align: center;
+}
+
+/* Filters */
+
+.companies{
+  display: flex;
+}
+
+.filters{
+  margin-left: 60px;
+  padding: 10px;
+}
+
+.filter1{
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+
+.filter2{
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.head11{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.subhead7{
+  font-size: 20px;
+}
+
+.clear{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 30px;
+  width: 130px;
+  height: 30px;
+}
+.clear:hover{
+  background-color: palevioletred;
+}
+
+.input6{
+  width: 400px;
+  height: 30px;
+  border-radius: 50px;
+  padding: 7px;
+  margin-bottom: 20px;
+}
+.input6::placeholder{
+  text-align: left;
+  font-size: 17px;
+}
+
+.lbl3{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+
+/* Company List */
+
+.companylist{
+  width: 100%;
+  height: 1600px;
+  padding: 30px;
+  overflow: scroll;
+}
+
+.company1{
+  width: 800px;
+  margin: 25px;
+  padding: 15px;
+}
+
+.company1:hover{
+  background-color: whitesmoke;
+}
+
+.companylogo{
+  display: flex;
+  align-items: center;
+}
+
+.thelogo{
+  width: 60px;
+  height: 60px;
+}
+
+.companyinfo{
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.thisicon{
+  width: 100px;
+  height: 25px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.icon9{
+  background-color: rgb(88, 221, 88);
+  margin-left: 550px;
+}
+
+.icon10{
+  background-color: rgb(98, 98, 255);
+  margin-left: 7px;
+}
+
+/* Tracking page */
+
+.interntracker{
+  background-color: pink;
+  padding: 30px;
+}
+
+.track {
+  width: 70vw;
+  height: 20vh;
+  padding: 20px;
+  border: 2px solid;
+  background-color: black;
+  color: white;
+  margin: 25px;
+  border-radius: 30px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 180px;
+}
+
+.view {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: pink
+}
+.view:hover{
+  background-color: palevioletred;
+  color: white;
+}
+
+/* View Details page */
+
+.vdNav{
+  display: flex;
+  justify-content: center;
+  gap: 1000px;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+}
+
+.return{
+  background: none;
+  border: none;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  color: pink;
+  font-weight: bold;
+}
+
+.vdContent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  padding-bottom: 30px;
+}
+
+.interninfo{
+  width: 800px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 30px;
+  border-radius: 15px;
+}
+/* Jobs Page */
+
+/* Main Navbar for remaining pages */
+
+.mainNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: pink;
+}
+
+.mainNavitems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.itemMain {
+  background: none;
+  color: pink;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.searching {
+  width: 150px;
+  height: 30px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.lghtDrk-btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: inherit;
+}
+
+#modeIcon {
+  font-size: 30px;
+  transition: transform 2s ease;
+}
+
+/* profile dropdown menu */
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 80px; /* Adjust depending on navbar height */
+  right: 20px;
+  width: 220px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1000;
+}
+
+/* Dropdown list */
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu .sign-out {
+  border-top: 1px solid #eee;
+  color: #d00;
+}
+
+
+.dropdown-menu li button {
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  width: 100%;
+  text-align: left;
+}
+
+.profile{
+  font-size: 30px;
+}
+
+/* Job page main content */
+
+.jobsearch{
+  width: 850px;
+  height: 400px;
+  padding: 20px;
+}
+
+#jobsearch::placeholder{
+  background-color: rgb(242, 218, 221);
+}
+
+#city::placeholder{
+  background-color: rgb(242, 218, 221);
+}
+
+.input2{
+  border: 2px solid gray;
+  border-radius: 50px;
+  width: 420px;
+  height: 30px;
+  padding: 10px;
+  margin-left: 60px;
+  margin-top: 50px;
+  background-color: rgb(242, 218, 221);
+  display: flex;
+  align-items: center;
+}
+
+.head7{
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  color: pink;
+  border-top: 1px solid pink;
+}
+
+.searchimg{
+  height: 500px;
+  width: 500px;
+}
+
+.head6{
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 70px;
+}
+
+.subhead5{
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+/* more jobs */
+
+.head8{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.alljobs{
+  width: 100%;
+  border: 1px solid gray;
+}
+
+/* jobs page ends */
+
+/* Community Page */
+
+.explorecommunity{
+  display: flex;
+  padding: 40px;
+  gap: 50px;
+}
+
+.community{
+  margin-left: 200px;
+}
+
+.icon18{
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid gray; border-radius: 15px; width: 230px; height: 55px; font-size: 17px;
+  margin-top: 25px;
+}
+.icon18:hover{
+  background-color: whitesmoke;
+}
+
+.mycommunity{
+  padding-top: 30px;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 1138px;
+  overflow: scroll;
+}
+
+.input12{
+  width: 700px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.head13{
+      font-size: 11px;
+      font-weight: bold;
+      display: flex;
+      gap: 350px;
+}
+
+.like{
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.post{
+  border: 1px solid gray;
+  border-radius: 7px;
+  width: 650px;
+  padding: 7px;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+/* Profile Page */
+
+.mainprofile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: pink;
+}
+
+.lbl4{
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.input10{
+  width: 550px;
+  height: 23px;
+  border-radius: 7px;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+.input10::placeholder{
+  text-align: left; 
+}
+
+.icon14{
+  background-color: pink;
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 12px auto auto 230px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.icon14:hover{
+     background-color: palevioletred;
+  color: white;
+}
+
+/* Account Settings */
+
+.accsettings{display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: pink;
+}
+
+.icon15{
+  background-color: pink;
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 12px auto auto 230px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.icon15:hover{
+     background-color: palevioletred;
+  color: white;
+}
+
+/* Application Form */
+
+.input11{
+  width: 600px;
+  margin-bottom: 15px;
+  height: 23px;
+}
+
+.lbl5{
+  font-size: 15px;
+}
+
+.icon13{
+  background-color: pink;
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 12px auto auto 230px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.icon13:hover{
+  background-color: palevioletred;
+  transform: scale(1.1);
+  border: 3px solid white;
+  color: white;
+}
+
+/* notifications center */
+
+/* Overlay background */
+.overlaynotifi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Popup box */
+.notifiPop {
+  background: pink;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.subhead8{
+  font-size: 30px;
+}
+
+.subhead9{
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.hide{
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+}
+.hide:hover{
+  background-color: palevioletred;
+}

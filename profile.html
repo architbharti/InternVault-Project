@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="InternVault.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Edit Profile</title>
+</head>
+<body>
+    <div class="vdNav">
+            <button class="return">
+                <i class="fa-solid fa-arrow-left"></i>RETURN
+            </button>
+            <div class="head">InternVault</div>
+        </div>
+
+        <div class="mainprofile">
+            <h3 style="font-weight: bold; font-size: 35px;">User Profile</h3>
+            <div class="userprofile" style="border: 1px solid; background-color: black; color: white; padding: 20px; border-radius: 35px;">
+                <i class="fa-solid fa-circle-user" style="font-size: 100px; margin-left: 220px;"></i> <br>
+                <button style="background-color: pink; width: 120px; height: 25px; font-size: 15px; border-radius: 7px; margin: 15px auto 15px 220px; cursor: pointer;">Add Photo</button> <br>
+
+                <label for="fullname" class="lbl4">Full Name</label> <br>
+                <input type="text" placeholder="Enter Full Name" class="input10"> <br>
+
+                <label for="mail" class="lbl4">Email Id</label> <br>
+                <input type="email" placeholder="Enter Email Address" class="input10"> <br>
+
+                <label for="profession" class="lbl4">Currently Working As</label> <br>
+                <select name="profession" id="profession" class="input10">
+                    <option>Job</option>
+                    <option>Post-graduate</option>
+                    <option>Graduate</option>
+                    <option>Under-graduate</option>
+                    <option>Non-working</option>
+                </select> <br>
+
+                <label for="dob" class="lbl4">Date Of Birth</label> <br>
+                <input type="date" placeholder="Select your date of birth" class="input10"> <br>
+
+                <button class="icon14" style="background-color: pink; width: 150px; height: 35px; font-size: 18px; border-radius: 7px; margin: 15px auto auto 210px;">Update Profile</button>
+            </div>
+        </div>
+
+        <script>
+    let icon12 = document.querySelector(".return");
+icon12.addEventListener("click" , function(){
+       window.history.back();
+});
+
+let allinput = document.querySelectorAll(".input10");
+
+let icon14 = document.querySelector(".icon14");
+icon14.addEventListener("click", function () {
+    allinput.forEach(function (input) {
+        input.value = "";
+    });
+    alert("Your Profile has been updated!");
+});
+
+
+</script>
+</body>
+</html>

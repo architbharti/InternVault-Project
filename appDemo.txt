@@ -1,0 +1,159 @@
+<div class="interns">
+    <div class="head3">Your next Internship starts here.</div>
+
+    <div class="filters">
+        <span class="filter">Location</span>
+        <span class="filter">Job Role</span>
+        <span class="filter">Big Brands</span>
+        <span class="filter">WorkFromHome</span>
+        <span class="filter">Engineering</span>
+        <span class="filter">Part-Time</span>
+    </div>
+
+    <div class="interninfo">
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up" style="color: green;"></i> Actively Hiring</span>
+            <p class="role">SDE Intern</p>
+            <p class="company">Amazon</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Bangalore <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹60,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 6 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">Marketing Intern</p>
+            <p class="company">Zomato</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Gurugram <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹20,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 3 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">UI/UX Intern</p>
+            <p class="company">Adobe</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Remote <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹35,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 4 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">Data Science Intern</p>
+            <p class="company">Microsoft</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Hyderabad <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹80,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 3 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">Product Management Intern</p>
+            <p class="company">Flipkart</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Bangalore <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹45,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 6 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">Web Developer Intern</p>
+            <p class="company">Internshala</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Remote <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹15,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 2 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">Business Analyst Intern</p>
+            <p class="company">Deloitte</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Mumbai <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹50,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 6 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+            <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+            <p class="role">Graphic Design Intern</p>
+            <p class="company">Byju's</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i> Bengaluru <br>
+                <i class="fa-solid fa-money-check-dollar"></i> ₹18,000 <br>
+                <i class="fa-solid fa-calendar-days"></i> 3 months
+            </div>
+            <button class="apply" style="cursor: pointer;">Apply Now</button>
+        </div>
+
+        <div class="opening">
+    <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+    <p class="role">HR Manager Intern</p>
+    <p class="company">Haldiram's</p>
+    <div class="loc">
+        <i class="fa-solid fa-location-dot"></i> Remote <br>
+        <i class="fa-solid fa-money-check-dollar"></i> ₹10,000 <br>
+        <i class="fa-solid fa-calendar-days"></i> 2 months
+    </div>
+    <button class="apply" style="cursor: pointer;">Apply Now</button>
+</div>
+
+<div class="opening">
+    <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+    <p class="role">Finance Intern</p>
+    <p class="company">KPMG</p>
+    <div class="loc">
+        <i class="fa-solid fa-location-dot"></i> Mumbai <br>
+        <i class="fa-solid fa-money-check-dollar"></i> ₹25,000 <br>
+        <i class="fa-solid fa-calendar-days"></i> 3 months
+    </div>
+    <button class="apply" style="cursor: pointer;">Apply Now</button>
+</div>
+
+<div class="opening">
+    <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+    <p class="role">HR Intern</p>
+    <p class="company">Tata Consultancy Services</p>
+    <div class="loc">
+        <i class="fa-solid fa-location-dot"></i> Pune <br>
+        <i class="fa-solid fa-money-check-dollar"></i> ₹20,000 <br>
+        <i class="fa-solid fa-calendar-days"></i> 6 months
+    </div>
+    <button class="apply" style="cursor: pointer;">Apply Now</button>
+</div>
+
+<div class="opening">
+    <span class="active"><i class="fa-solid fa-arrow-trend-up"></i> Actively Hiring</span>
+    <p class="role">Data Analyst Intern</p>
+    <p class="company">Swiggy</p>
+    <div class="loc">
+        <i class="fa-solid fa-location-dot"></i> Bengaluru <br>
+        <i class="fa-solid fa-money-check-dollar"></i> ₹40,000 <br>
+        <i class="fa-solid fa-calendar-days"></i> 4 months
+    </div>
+    <button class="apply" style="cursor: pointer;">Apply Now</button>
+</div>
+
+    </div>
+</div>

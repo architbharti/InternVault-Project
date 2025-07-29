@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="InternVault.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Account Settings</title>
+</head>
+<body>
+    <div class="vdNav">
+            <button class="return">
+                <i class="fa-solid fa-arrow-left"></i>RETURN
+            </button>
+            <div class="head">InternVault</div>
+        </div>
+
+        <div class="accsettings">
+            <h3 style="font-weight: bold; font-size:55px;">Account Settings</h3>
+            <div class="settings" style="border: 1px solid; background-color: black; color: white; padding: 20px; border-radius: 30px; margin-top: 30px;">
+                <span>
+                    <label for="theme" style="font-weight: bold; font-size: 25px;">Appearance</label> <br>
+                    <select name="theme" id="theme" style="width: 600px; font-size: 17px; height: 30px;">
+                        <option>Light</option>
+                        <option>Dark</option>
+                        <option>System Default</option>
+                    </select>
+                <span> <br>
+               <br> <span>
+                    <span  style="font-weight: bold; font-size: 25px;">General Preferences</span> <br>
+                    <ul style="list-style: none;">
+                        <li>Language <i class="fa-solid fa-arrow-right" style="margin-left: 465px; font-size: 18px; font-weight: bold;"></i></li>
+                        <li>Content Language <i class="fa-solid fa-arrow-right" style="margin-left: 405px; font-size: 18px; font-weight: bold;"></i></li>
+                        <li>Showing Profile Photos <i class="fa-solid fa-arrow-right" style="margin-left: 373px; font-size: 18px; font-weight: bold;"></i></li>
+                        <li>Communities you unfollowed <i class="fa-solid fa-arrow-right" style="margin-left: 335px; font-size: 18px; font-weight: bold;"></i></li>
+                    </ul>
+
+                </span> <br>
+
+                <span>
+                    <span  style="font-weight: bold; font-size: 25px;">Account Management</span>
+                    <ul style="list-style: none;">
+                        <li>Hibernate Account <i class="fa-solid fa-arrow-right" style="margin-left: 415px; font-size: 18px; font-weight: bold;"></i></li>
+                        <li>Close Account <i class="fa-solid fa-arrow-right" style="margin-left: 443px; font-size: 18px; font-weight: bold;"></i></li>
+                    </ul>
+                </span>
+
+                <button class="icon15">Apply Changes</button>
+            </div>
+        </div>
+
+        <script>
+    let icon12 = document.querySelector(".return");
+icon12.addEventListener("click" , function(){
+       window.history.back();
+});
+
+let icon15 = document.querySelector(".icon15");
+icon15.addEventListener("click" , function(){
+       alert("Settings changed!");
+});
+
+</script>
+</body>
+</html>

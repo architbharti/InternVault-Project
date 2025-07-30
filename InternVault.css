@@ -1061,7 +1061,7 @@ body.dark-mode {
 }
 
 .icon13{
-  background-color: pink;
+  background-color: rgb(36, 75, 166);
   width: 160px;
   height: 30px;
   border-radius: 10px;
@@ -1070,12 +1070,12 @@ body.dark-mode {
   font-weight: bold;
   transition: transform 0.5s;
   cursor: pointer;
+  color: white;
 }
 .icon13:hover{
-  background-color: palevioletred;
+  background-color: dodgerblue;
   transform: scale(1.1);
   border: 3px solid white;
-  color: white;
 }
 
 /* notifications center */
